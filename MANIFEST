@@ -1,0 +1,12 @@
+Build.PL
+Changes
+MANIFEST
+README
+lib/POE/Component/IRC/Plugin/WWW/Cache/Google.pm
+t/00-load.t
+t/kwalitee.t
+examples/cache_bot.pl
+t/pod-coverage.t
+t/pod.t
+Makefile.PL
+META.yml
