@@ -2,11 +2,13 @@ Build.PL
 Changes
 MANIFEST
 README
+LICENSE
 lib/POE/Component/IRC/Plugin/WWW/Cache/Google.pm
-t/00-load.t
-t/kwalitee.t
 examples/cache_bot.pl
-t/pod-coverage.t
-t/pod.t
+t/00-load.t
+xt/kwalitee.t
+xt/pod-coverage.t
+xt/pod.t
 Makefile.PL
 META.yml
+META.json

@@ -1,0 +1,48 @@
+{
+   "abstract" : "give URIs to Google's cache pages checking if they exist",
+   "author" : [
+      "Zoffix Znet <zoffix@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "POE-Component-IRC-Plugin-WWW-Cache-Google",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "POE::Component::IRC::Plugin::BasePoCoWrap" : "0.003",
+            "POE::Component::WWW::Cache::Google" : "0.0201",
+            "perl" : "5.006"
+         }
+      }
+   },
+   "provides" : {
+      "POE::Component::IRC::Plugin::WWW::Cache::Google" : {
+         "file" : "lib/POE/Component/IRC/Plugin/WWW/Cache/Google.pm",
+         "version" : "0.0102"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.0102"
+}

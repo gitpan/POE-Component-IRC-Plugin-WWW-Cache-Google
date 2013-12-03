@@ -1,22 +1,26 @@
 ---
-name: POE-Component-IRC-Plugin-WWW-Cache-Google
-version: 0.0101
+abstract: "give URIs to Google's cache pages checking if they exist"
 author:
   - 'Zoffix Znet <zoffix@cpan.org>'
-abstract: give URIs to Google's cache pages checking if they exist
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  POE::Component::IRC::Plugin::BasePoCoWrap: 0.003
-  POE::Component::WWW::Cache::Google: 0.0201
 build_requires:
   Test::More: 0
+configure_requires:
+  Module::Build: 0
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: POE-Component-IRC-Plugin-WWW-Cache-Google
 provides:
   POE::Component::IRC::Plugin::WWW::Cache::Google:
     file: lib/POE/Component/IRC/Plugin/WWW/Cache/Google.pm
-    version: 0.0101
-generated_by: Module::Build version 0.2808
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+    version: 0.0102
+requires:
+  POE::Component::IRC::Plugin::BasePoCoWrap: 0.003
+  POE::Component::WWW::Cache::Google: 0.0201
+  perl: 5.006
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.0102

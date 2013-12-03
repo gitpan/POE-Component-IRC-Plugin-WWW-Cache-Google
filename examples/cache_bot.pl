@@ -12,6 +12,7 @@ my $irc = POE::Component::IRC->spawn(
     port        => 6667,
     ircname     => 'Google Cache Bot',
     plugin_debug => 1,
+    debug       => 1,
 );
 
 POE::Session->create(
